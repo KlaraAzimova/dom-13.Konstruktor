@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Class {
     private int number;
     private String word;
@@ -28,10 +30,12 @@ public class Class {
     }
 
     public int[] getArray() {
+
         return array;
     }
 
     public void setArray(int[] array) {
         this.array = array;
     }
+
 }
